@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Kavipriya S — Web Developer & UI/UX Designer.">
+<title>Kavipriya S — Web Developer Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="stars"></canvas>
+<header>
+  <nav>
+    <a href="#home" class="logo"><i></i>Kavipriya S</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li><li><a href="#skills">Skills</a></li><li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li><li><a href="#certifications">Certifications</a></li><li><a href="#education">Education</a></li><li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="gh" href="https://github.com/S-KAVI-PRIYA" target="_blank" rel="noopener" aria-label="GitHub profile"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero wrap" id="home">
+    <div>
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Kavipriya <span class="grad">S</span></h1>
+      <p class="role"><span id="roleText"></span><span class="cursor">|</span></p>
+      <p class="lead">B.Tech Information Technology student | UI/UX Design &amp; Web Development. I build responsive, user-friendly web experiences and AI-powered apps with HTML, CSS ,JavaScript, Python and Java.</p>
+      <div class="btn-row"><a href="#projects" class="btn primary">View My Work</a><a href="#certifications" class="btn outline">My Certificates</a></div>
+      <div class="social">
+        <a href="mailto:kavipriya.skip@gmail.com">Email</a>
+        <a href="https://github.com/S-KAVI-PRIYA" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/kavipriya-s-7a5493337/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="tel:+919677184577">Call</a>
+      </div>
+    </div>
+    <div class="portrait">
+      <img src="kavipriya.jpeg" alt="Kavipriya" onerror="this.style.display='none'">
+      <span class="initials">KS</span>
+    </div>
+  </section>
+
+  <section id="skills" class="wrap reveal">
+    <div class="head"><p class="eyebrow">Skills</p><h2>Tools I use <span class="grad">every day</span></h2><p class="sub">I'm open to web development jobs, internships and freelance projects.</p></div>
+    <div class="grid3">
+      <div class="card"><h3>Programming</h3><div class="tags"><span>Python</span><span>Java</span><span>C (Basics)</span><span>SQL</span></div></div>
+      <div class="card"><h3>Web &amp; Design</h3><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Flask</span><span>Figma</span></div></div>
+      <div class="card"><h3>Soft Skills</h3><div class="tags"><span>Communication</span><span>Creativity</span><span>Problem-Solving</span><span>Teamwork</span></div></div>
+    </div>
+  </section>
+
+  <section id="experience" class="wrap reveal">
+    <div class="head"><p class="eyebrow">My journey</p><h2>Work <span>Experience</span></h2></div>
+    <div class="exp">
+      <div class="exp-tabs" id="expTabs">
+        <button class="on" data-t="0">Kodbud<small>JUN 2026</small></button>
+        <button data-t="1">Alfido Tech<small>DEC 2025</small></button>
+      </div>
+      <div>
+        <div class="exp-panel on"><h3>Web Development Intern <span>@ Kodbud</span></h3><span class="date">June 2026</span>
+          <ul><li>Built responsive, user-friendly web pages with HTML, CSS and JavaScript.</li><li>Converted design mockups into functional front-end interfaces.</li><li>Improved consistency through responsive design and cross-browser compatibility.</li><li>Debugged issues and collaborated with the development team.</li></ul></div>
+        <div class="exp-panel"><h3>UI/UX Design Intern <span>@ Alfido Tech</span></h3><span class="date">December 2025</span>
+          <ul><li>Designed intuitive, visually appealing web app interfaces in Figma.</li><li>Created wireframes and interactive prototypes.</li><li>Applied UI/UX best practices to improve usability and design quality.</li><li>Collaborated on real-time projects.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="wrap reveal">
+    <div class="head"><p class="eyebrow">Projects</p><h2>Things I have <span class="grad">built</span></h2></div>
+    <div class="grid2">
+      <article class="card project">
+        <div class="ptag">Python · Flask</div><h3>AI Study Planner</h3>
+        <p>A smart study plan generator on a Flask backend. Students enter subjects and goals, and the app builds a structured, personalised schedule through a clean web interface.</p>
+        <div class="tags"><span>Python</span><span>Flask</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <a class="btn primary sm" href="https://github.com/S-KAVI-PRIYA/project" target="_blank" rel="noopener"> View on GitHub</a>
+      </article>
+      <article class="card project">
+        <div class="ptag">AI · RAG · Python</div><h3>Agri Guide</h3>
+        <p>An agriculture assistant with two paths. <b>Dataset:</b> the question is embedded with MiniLM, matched to crop records in ChromaDB, and Gemini answers only from that context. <b>Web:</b> out-of-dataset questions go to Gemini with Google Search grounding, with a DuckDuckGo fallback.</p>
+        <div class="tags"><span>Python</span><span>Gemini</span><span>ChromaDB</span><span>MiniLM</span><span>Semantic Search</span></div>
+        <a class="btn primary sm" href="https://github.com/S-KAVI-PRIYA/AgriGuide" target="_blank" rel="noopener"> View on GitHub</a>
+      </article>
+    </div>
+    <p class="center"><a class="link" href="https://github.com/S-KAVI-PRIYA?tab=repositories" target="_blank" rel="noopener">View all repositories ↗</a></p>
+  </section>
+
+  <section id="certifications" class="wrap reveal">
+    <div class="head"><p class="eyebrow">Certifications</p><h2>My <span class="grad">Certificates</span></h2><p class="sub">Tap a card to view the certificate.</p></div>
+    <div class="filters" id="filters"></div>
+    <div class="grid3" id="certGrid"></div>
+  </section>
+
+  <section id="education" class="wrap reveal">
+    <div class="head"><p class="eyebrow">Education</p><h2>Education</h2><h3>I’m an IT student focused on web development and UI/UX design, and I’m looking for opportunities to <span class="grad">grow and build real-world projects.</span></h3></div>
+    <div class="bento">
+      <div class="card big"><span class="pill">2024 to 2028</span><h3>B.Tech, Information Technology</h3><h4>St. Joseph's Institute of Technology</h4><div class="cgpa"><b>8.03</b><span>CGPA</span></div></div>
+      <div class="card"><span class="pill">HSC</span><h3>Higher Secondary Education</h3><h4>SS Govt Girls Higher Secondary School</h4>
+        <div class="two"><div><b>51%</b><span>10th grade</span></div><div><b>66.16%</b><span>12th grade</span></div></div></div>
+    </div>
+  </section>
+
+  <section id="contact" class="wrap reveal">
+    <div class="head"><p class="eyebrow">Contact</p><h2>Let us build something <span class="grad">together</span></h2><p class="sub">Hiring for an internship or have a project in mind? Send a note and I will reply.</p></div>
+    <div class="contact-grid">
+      <div class="info">
+        <a class="irow" href="mailto:kavipriya.skip@gmail.com"><i>@</i><div><small>Email</small>kavipriya.skip@gmail.com</div></a>
+        <a class="irow" href="tel:+919677184577"><i>☎</i><div><small>Phone</small>+91 96771 84577</div></a>
+        <a class="irow" href="https://www.linkedin.com/in/kavipriya-s-7a5493337/" target="_blank" rel="noopener"><i>in</i><div><small>LinkedIn</small>kavipriya-s-7a5493337</div></a>
+        <a class="irow" href="https://github.com/S-KAVI-PRIYA" target="_blank" rel="noopener"><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></i><div><small>GitHub</small>S-KAVI-PRIYA</div></a>
+      </div>
+      <form id="contactForm">
+        <label for="name">Name</label><input id="name" placeholder="Your name" required>
+        <label for="email">Email</label><input id="email" type="email" placeholder="you@example.com" required>
+        <label for="message">Message</label><textarea id="message" rows="5" placeholder="Tell me about the role or project" required></textarea>
+        <button class="btn primary" type="submit">Send Message</button><p id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>© <span id="year">2026</span> Kavipriya S. All rights reserved.</footer>
+<a href="#home" class="top" id="top" aria-label="Back to top">↑</a>
+
+<div class="modal" id="modal">
+  <div class="mbox">
+    <div class="mbar"><b id="mTitle"></b><span><a id="mOpen" target="_blank" rel="noopener">Open ↗</a><a id="mVerify" target="_blank" rel="noopener">Verify ↗</a><button id="mClose" aria-label="Close">✕</button></span></div>
+    <div class="mbody" id="mBody"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
