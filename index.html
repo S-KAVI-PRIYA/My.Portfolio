@@ -28,7 +28,7 @@
       <p class="eyebrow">Hello, I'm</p>
       <h1>Kavipriya <span class="grad">S</span></h1>
       <p class="role"><span id="roleText"></span><span class="cursor">|</span></p>
-      <p class="lead">B.Tech Information Technology student | UI/UX Design &amp; Web Development. I build responsive, user-friendly web experiences and AI-powered apps with HTML, CSS ,JavaScript, Python and Java.</p>
+      <p class="lead">B.Tech Information Technology student | UI/UX Design &amp; Web Development. I build responsive, user-friendly web experiences and AI-powered apps with HTML, CSS, JavaScript, Python and Java.</p>
       <div class="btn-row"><a href="#projects" class="btn primary">View My Work</a><a href="#certifications" class="btn outline">My Certificates</a></div>
       <div class="social">
         <a href="mailto:kavipriya.skip@gmail.com">Email</a>
@@ -75,13 +75,13 @@
         <div class="ptag">Python · Flask</div><h3>AI Study Planner</h3>
         <p>A smart study plan generator on a Flask backend. Students enter subjects and goals, and the app builds a structured, personalised schedule through a clean web interface.</p>
         <div class="tags"><span>Python</span><span>Flask</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-        <a class="btn primary sm" href="https://github.com/S-KAVI-PRIYA/project" target="_blank" rel="noopener"> View on GitHub</a>
+        <a class="btn primary sm" href="https://github.com/S-KAVI-PRIYA/project" target="_blank" rel="noopener">View on GitHub</a>
       </article>
       <article class="card project">
         <div class="ptag">AI · RAG · Python</div><h3>Agri Guide</h3>
         <p>An agriculture assistant with two paths. <b>Dataset:</b> the question is embedded with MiniLM, matched to crop records in ChromaDB, and Gemini answers only from that context. <b>Web:</b> out-of-dataset questions go to Gemini with Google Search grounding, with a DuckDuckGo fallback.</p>
         <div class="tags"><span>Python</span><span>Gemini</span><span>ChromaDB</span><span>MiniLM</span><span>Semantic Search</span></div>
-        <a class="btn primary sm" href="https://github.com/S-KAVI-PRIYA/AgriGuide" target="_blank" rel="noopener"> View on GitHub</a>
+        <a class="btn primary sm" href="https://github.com/S-KAVI-PRIYA/AgriGuide" target="_blank" rel="noopener">View on GitHub</a>
       </article>
     </div>
     <p class="center"><a class="link" href="https://github.com/S-KAVI-PRIYA?tab=repositories" target="_blank" rel="noopener">View all repositories ↗</a></p>
@@ -112,10 +112,10 @@
         <a class="irow" href="https://github.com/S-KAVI-PRIYA" target="_blank" rel="noopener"><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></i><div><small>GitHub</small>S-KAVI-PRIYA</div></a>
       </div>
       <form id="contactForm">
-        <label for="name">Name</label><input id="name" placeholder="Your name" required>
-        <label for="email">Email</label><input id="email" type="email" placeholder="you@example.com" required>
-        <label for="message">Message</label><textarea id="message" rows="5" placeholder="Tell me about the role or project" required></textarea>
-        <button class="btn primary" type="submit">Send Message</button><p id="formStatus"></p>
+        <label for="name">Name</label><input id="name" name="name" placeholder="Your name" autocomplete="name" required>
+        <label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+        <label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell me about the role or project" required></textarea>
+        <button class="btn primary" type="submit" id="sendBtn">Send Message</button><p id="formStatus" aria-live="polite"></p>
       </form>
     </div>
   </section>
